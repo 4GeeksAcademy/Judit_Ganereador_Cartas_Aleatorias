@@ -37,15 +37,11 @@ window.onload = function() {
   document.getElementById("valueCard").innerText = randomValue;
   document.getElementById("suitBottom").innerText = randomSuit.symbol;
 
-  document.getElementById(
-    "suitTop"
-  ).className = `topsuit ${randomSuit.name}`;
+  document.getElementById("suitTop").className = `topsuit ${randomSuit.name}`;
   document.getElementById(
     "valueCard"
   ).className = `cardvalue ${randomValue.name}`;
   document.getElementById(
     "suitBottom"
   ).className = `bottomsuit ${randomSuit.name}`;
-
-  generateRandomCard();
 };
