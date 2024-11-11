@@ -18,14 +18,14 @@ body {
   height: 250px;
   border-radius: 10px;
   background-color: white;
-  font-size: 30px;
+  font-size: 80px;
   color: black;
   object-fit: cover;
 }
 .topsuit,
 .bottomsuit {
-  font-size: 30px;
-  padding: 3px;
+  font-size: 40px;
+  padding: 5px;
   position: relative;
   line-height: normal;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .valuecard {
-  font-size: 60px;
+  font-size: 200px;
 }
 .heart,
 .diamonds {
